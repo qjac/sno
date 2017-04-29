@@ -1,0 +1,31 @@
+main {
+	background: tint($bright, 90%);
+	margin: 70px 2% 0;
+	padding: 1rem 2%;
+	border-radius: 2rem 2rem 0 0;
+	z-index: 9;
+
+	article {
+		padding-bottom: 1rem;
+	}
+
+	.sd-social-icon .sd-content ul li[class*='share-'].share-facebook a.sd-button,
+	.sd-social-icon .sd-content ul li[class*='share-'].share-twitter a.sd-button {
+		background: tint($dark, 40%);
+		color: tint($bright, 90%);
+	}
+
+	@media (min-width: 750px) {
+		margin-top: -20px;
+	}
+}
+
+#interior-main {
+	@media (min-width: 750px) {
+	width: calc(90% - 306px);
+	float: left;
+}}
+
+.equalhi {
+	box-sizing: content-box;
+}

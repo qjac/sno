@@ -1,0 +1,28 @@
+$highlight-color: rgb(69, 153, 130);
+$main-color: rgb(184, 204, 102);
+$bright: rgb(204, 194, 163);
+$dark: rgb(64, 61, 61);
+
+
+
+
+$font: ('Noto Sans', Helvetica, Arial, sans-serif);
+$h-font: ('Noto Serif', serif);
+
+/// Slightly lighten a color
+/// @access public
+/// @param {Color} $color - color to tint
+/// @param {Number} $percentage - percentage of `$color` in returned color
+/// @return {Color}
+@function tint($color, $percentage) {
+  @return mix(white, $color, $percentage);
+}
+
+/// Slightly darken a color
+/// @access public
+/// @param {Color} $color - color to shade
+/// @param {Number} $percentage - percentage of `$color` in returned color
+/// @return {Color}
+@function shade($color, $percentage) {
+  @return mix(black, $color, $percentage);
+}
