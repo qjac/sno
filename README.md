@@ -1,6 +1,7 @@
 # sno
 WordPress Custom theme —MCTC WEBI 2000 Final Project
 Built: Spring 2016
+url: http://jacquelinequintanilla.com/webi2000/final
 
 Custom WordPress theme created by Jacqueline Quintanilla
 aka 'My Little First Theme'
